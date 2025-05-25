@@ -1,5 +1,4 @@
 export default (word1, word2) => {
-  // Eliminar espacios y pasar a minúsculas
   let normalize = (word) =>
     word
       .toLowerCase()

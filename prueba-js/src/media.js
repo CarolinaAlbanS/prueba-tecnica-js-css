@@ -3,7 +3,7 @@ export default (json) => {
 
   let media = totalEdad / json.length;
 
-  //Si quiero que me devuelva un numero entedero redondeando a lo alto.
+  //Si quiero que me devuelva un numero entero redondeando a lo alto.
   //let edadRedondeada = Math.round(media);
   //return edadRedondeada;
   return media;
